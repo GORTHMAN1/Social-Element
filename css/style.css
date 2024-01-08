@@ -1,0 +1,89 @@
+/* Add your custom styles here */
+body {
+    padding-top: 56px;
+    padding-left: 15px; /* Adjust the left padding as needed */
+    padding-right: 15px; /* Adjust the right padding as needed */
+}
+
+@media (max-width: 576px) {
+    body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+      padding-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Align the items vertically */
+}
+
+.navbar-brand-circle {
+    border: 2px solid #007bff; /* Change the border color as needed */
+    border-radius: 20%;
+    padding: 5px 10px;
+    background-color: white; /* Add a background color */
+}
+
+.navbar-brand-text {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.sticky-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px; /* Adjust this value based on your navbar height */
+}
+
+/* Custom Styles for Links */
+.navbar-nav .nav-link {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set your desired color */
+}
+
+/* Style for Active (current) Link */
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold; /* Optionally, set a different style for the active link */
+}
+
+/* Style for fake image */
+.fakeimg {
+    height: 400px;
+    background: #aaa;
+}
+
+.list-group {
+    margin-bottom: 20px;
+}
+
+.like {
+  color: red;
+}
+
+.comment {
+  color: grey;
+}
+
+/* Custom Styles for Navigation Bar within Main Content */
+.navbar.navbar-expand-sm {
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Additional styling for the navbar links */
+.navbar.navbar-expand-sm .navbar-nav .nav-link {
+  line-height: 1.5; /* Adjust the line height as needed */
+}
+
+
